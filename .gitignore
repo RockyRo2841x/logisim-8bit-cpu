@@ -1,0 +1,9 @@
+# Logisim and editor backups
+*.circ.bak
+*.bak
+*.tmp
+*~
+
+# Operating-system files
+Thumbs.db
+.DS_Store

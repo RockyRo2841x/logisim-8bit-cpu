@@ -1,0 +1,148 @@
+{
+  "declared_source_version": "2.7.1",
+  "main": "main",
+  "subcircuit_count": 28,
+  "unresolved_custom_circuit_references": [],
+  "circuits": [
+    {
+      "name": "main",
+      "components": 19,
+      "wires": 21
+    },
+    {
+      "name": "PC",
+      "components": 11,
+      "wires": 24
+    },
+    {
+      "name": "Instruction Memory",
+      "components": 22,
+      "wires": 57
+    },
+    {
+      "name": "Registers",
+      "components": 31,
+      "wires": 195
+    },
+    {
+      "name": "ALU",
+      "components": 24,
+      "wires": 85
+    },
+    {
+      "name": "Data Memory",
+      "components": 45,
+      "wires": 349
+    },
+    {
+      "name": "Call Stack",
+      "components": 4,
+      "wires": 0
+    },
+    {
+      "name": "Flags",
+      "components": 13,
+      "wires": 40
+    },
+    {
+      "name": "Control Unit",
+      "components": 19,
+      "wires": 60
+    },
+    {
+      "name": "CLK",
+      "components": 11,
+      "wires": 22
+    },
+    {
+      "name": "Memory cell",
+      "components": 13,
+      "wires": 29
+    },
+    {
+      "name": "Register",
+      "components": 19,
+      "wires": 210
+    },
+    {
+      "name": "Half Adder",
+      "components": 6,
+      "wires": 14
+    },
+    {
+      "name": "8BITADDER",
+      "components": 19,
+      "wires": 55
+    },
+    {
+      "name": "MUX_2_TO_1_1BIT",
+      "components": 9,
+      "wires": 14
+    },
+    {
+      "name": "MUX_2_TO_1_8BIT",
+      "components": 16,
+      "wires": 86
+    },
+    {
+      "name": "Instruction Splitter",
+      "components": 6,
+      "wires": 11
+    },
+    {
+      "name": "Decoder",
+      "components": 16,
+      "wires": 4
+    },
+    {
+      "name": "1BIT FULL ADDER",
+      "components": 10,
+      "wires": 21
+    },
+    {
+      "name": "8BIT FULL ADDER",
+      "components": 16,
+      "wires": 95
+    },
+    {
+      "name": "8BIT SUBRACTOR",
+      "components": 24,
+      "wires": 95
+    },
+    {
+      "name": "8BITADD/SUB",
+      "components": 24,
+      "wires": 130
+    },
+    {
+      "name": "BITWISEAND",
+      "components": 14,
+      "wires": 67
+    },
+    {
+      "name": "BITWISENOR",
+      "components": 14,
+      "wires": 67
+    },
+    {
+      "name": "ALUDECODER",
+      "components": 27,
+      "wires": 113
+    },
+    {
+      "name": "RIGHTSHIFT",
+      "components": 6,
+      "wires": 11
+    },
+    {
+      "name": "ALU'",
+      "components": 23,
+      "wires": 87
+    },
+    {
+      "name": "16:1 MUX",
+      "components": 8,
+      "wires": 0
+    }
+  ]
+}
